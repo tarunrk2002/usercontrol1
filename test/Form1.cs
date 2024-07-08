@@ -28,7 +28,7 @@ namespace test
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
+          
         }
 
         private void second_button_Click(object sender, EventArgs e)

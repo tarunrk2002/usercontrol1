@@ -29,8 +29,8 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
-            this.first_button = new System.Windows.Forms.Button();
             this.second_button = new System.Windows.Forms.Button();
+            this.first_button = new System.Windows.Forms.Button();
             this.MainPanel = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
@@ -46,16 +46,6 @@
             this.panel1.Size = new System.Drawing.Size(123, 450);
             this.panel1.TabIndex = 0;
             // 
-            // first_button
-            // 
-            this.first_button.Location = new System.Drawing.Point(22, 76);
-            this.first_button.Name = "first_button";
-            this.first_button.Size = new System.Drawing.Size(75, 23);
-            this.first_button.TabIndex = 0;
-            this.first_button.Text = "first";
-            this.first_button.UseVisualStyleBackColor = true;
-            this.first_button.Click += new System.EventHandler(this.first_button_Click);
-            // 
             // second_button
             // 
             this.second_button.Location = new System.Drawing.Point(22, 178);
@@ -65,6 +55,16 @@
             this.second_button.Text = "second";
             this.second_button.UseVisualStyleBackColor = true;
             this.second_button.Click += new System.EventHandler(this.second_button_Click);
+            // 
+            // first_button
+            // 
+            this.first_button.Location = new System.Drawing.Point(22, 76);
+            this.first_button.Name = "first_button";
+            this.first_button.Size = new System.Drawing.Size(75, 23);
+            this.first_button.TabIndex = 0;
+            this.first_button.Text = "first";
+            this.first_button.UseVisualStyleBackColor = true;
+            this.first_button.Click += new System.EventHandler(this.first_button_Click);
             // 
             // MainPanel
             // 
